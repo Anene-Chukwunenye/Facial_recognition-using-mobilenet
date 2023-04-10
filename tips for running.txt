@@ -1,0 +1,8 @@
+# using the anaconda terminal
+
+
+1) cd to the location of the model folder: cd C:\Users...
+2) create a virtual environment: conda create -n "face_detection" python=3.6  (you can use any name for the environment)
+3) activate the created environment : conda activate face_detection 
+4) install the required libaries: pip install -r requirements.txt
+5) once the installation is complete, call the python file: python chukspred.py file (name may be differnt)
